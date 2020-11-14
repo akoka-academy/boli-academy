@@ -3,9 +3,10 @@ title: Style Guide
 subtitle: The style guide provides you with a blueprint of default post and page styles.
 image: images/5.jpg
 layout: page
----
+excerpt: ''
 
-**This is a paragraph**. Pellentesque habitant morbi *tristique senectus et netus et malesuada* fames ac turpis egestas. Vestibulum [tortor quam](https://www.google.com), feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit <mark>amet est et sapien ullamcorper</mark> pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
+---
+**This is a paragraph**. Is this a paragraph? Pellentesque habitant morbi _tristique senectus et netus et malesuada_ fames ac turpis egestas. Vestibulum [tortor quam](https://www.google.com), feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit <mark>amet est et sapien ullamcorper</mark> pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.
 
 # This is an H1
 
@@ -27,7 +28,7 @@ Quisque facilisis erat a dui. Nam malesuada ornare dolor. Cras gravida, diam sit
 
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
 
->Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep. - Scott Adams
+> Creativity is allowing yourself to make mistakes. Design is knowing which ones to keep. - Scott Adams
 
 Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero.
 
@@ -35,11 +36,11 @@ Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar
 
 ## Unordered Lists
 
-+ Donec non tortor in arcu mollis feugiat
-+ Lorem ipsum dolor sit amet, consectetuer adipiscing elit
-+ Donec id eros eget quam aliquam gravida
-+ Vivamus convallis urna id felis
-+ Nulla porta tempus sapien
+* Donec non tortor in arcu mollis feugiat
+* Lorem ipsum dolor sit amet, consectetuer adipiscing elit
+* Donec id eros eget quam aliquam gravida
+* Vivamus convallis urna id felis
+* Nulla porta tempus sapien
 
 ## Ordered Lists
 
@@ -57,12 +58,10 @@ Morbi commodo, ipsum sed pharetra gravida, orci magna rhoncus neque, id pulvinar
 
 Blocks of code are either fenced by `lines with three back-ticks`, or are indented with four spaces.
 
-```
-<!-- Some example CSS code -->
-body {
-  color:red;
-}
-```
+    <!-- Some example CSS code -->
+    body {
+      color:red;
+    }
 
 ```javascript
 window.$docsify = {
@@ -85,27 +84,27 @@ window.$docsify = {
 ## Tables
 
 <div class="responsive-table">
-  <table>
-      <caption>Table with thead, tfoot, and tbody</caption>
-    <thead>
-      <tr>
-        <th>Header content 1</th>
-        <th>Header content 2</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Body content 1</td>
-        <td>Body content 2</td>
-      </tr>
-    </tbody>
-    <tfoot>
-      <tr>
-        <td>Footer content 1</td>
-        <td>Footer content 2</td>
-      </tr>
-    </tfoot>
-  </table>
+<table>
+<caption>Table with thead, tfoot, and tbody</caption>
+<thead>
+<tr>
+<th>Header content 1</th>
+<th>Header content 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Body content 1</td>
+<td>Body content 2</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td>Footer content 1</td>
+<td>Footer content 2</td>
+</tr>
+</tfoot>
+</table>
 </div>
 
 <div class="note"><strong>Note:</strong> Both of the features you used above are parts of the Document Object Model (DOM) API, which allows you to manipulate documents.</div>
