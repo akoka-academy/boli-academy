@@ -1,9 +1,11 @@
-root_docs_path: /docs
+---
+root_docs_path: "/docs"
 sections:
-  - about
-  - getting-started
-  - ui-components
-  - manage-content
-  - tools
-  - faq
-  - community
+- general
+- about
+- getting-started
+- ui-components
+- manage-content
+- tools
+- faq
+- community
